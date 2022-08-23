@@ -1,0 +1,60 @@
+body{
+    background-color: beige;
+    color: rgb(red, green, blue);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: lighter;
+}
+h1{
+    color: rgb(21, 86, 112)
+}
+
+.box-1{
+    background-color: aquamarine;
+    border-top: 5px burlywood solid;
+    border-bottom: 5px burlywood solid;
+    border-left: 5px burlywood solid;
+    border-right: 5px burlywood solid;
+}
+.box-2{
+    background-color: aquamarine;
+    border-top: 5px purple solid;
+    border-bottom: 5px purple solid;
+    border-left: 5px purple solid;
+    border-right: 5px purple solid;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.box-1 h4{
+    text-decoration: underline;
+    letter-spacing: 0.1em;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    colour: red
+}
+#mainNav{
+    background-color: aquamarine;
+}
+.myform{
+    background-color: grey;
+    color: antiquewhite;
+    padding: 50px;
+    margin: 10px;
+}
+,button{
+    padding: 10px;
+    border: none;
+    background-color: blue;
+    color: antiquewhite;
+}
+.flexcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
